@@ -10,3 +10,7 @@ SOURCES = plugininterface/plugininterface.cpp \
         helloworld.cpp
 
 TARGET = $$qtLibraryTarget(helloworld)
+
+unix:{
+    QMAKE_RPATHDIR=$ORIGIN
+}
