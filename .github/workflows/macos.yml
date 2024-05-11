@@ -40,6 +40,7 @@ jobs:
       - name: Upload build asserts
         uses: actions/upload-artifact@v4
         with:
+          name: libhelloworld
           path: |
             ./libhelloworld.dylib
 
@@ -72,6 +73,7 @@ jobs:
       - name: Upload build asserts
         uses: actions/upload-artifact@v4
         with:
+          name: libhelloworld_arm64
           path: |
             ./libhelloworld.arm64.dylib
           
