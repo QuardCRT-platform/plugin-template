@@ -26,7 +26,7 @@ public:
 
     QMap<QString,void *> metaObject() {
         QMap<QString,void *> ret;
-        ret.insert("QAction", (void *)m_action);
+        ret.insert("MainMenuAction", (void *)m_action);
         ret.insert("website", (void *)(&m_website));
         return ret;
     }
