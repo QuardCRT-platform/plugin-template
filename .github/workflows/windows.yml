@@ -33,7 +33,7 @@ jobs:
           mingw32-make -j8
 
       - name: Upload build asserts
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: libhelloworld_mingw
           path: |
@@ -68,7 +68,7 @@ jobs:
           cp ./release/helloworld.dll ./release/helloworld.msvc.dll
 
       - name: Upload build asserts
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: libhelloworld_msvc
           path: |
