@@ -37,7 +37,7 @@ jobs:
           make
 
       - name: Upload build asserts
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: libhelloworld
           path: |
@@ -69,7 +69,7 @@ jobs:
           cp libhelloworld.dylib libhelloworld.arm64.dylib
 
       - name: Upload build asserts
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: libhelloworld_arm64
           path: |
