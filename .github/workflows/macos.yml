@@ -23,8 +23,8 @@ jobs:
       - name: Install Qt
         uses: jurplel/install-qt-action@v4
         with:
-          version: '6.5.3'
-          aqtversion: ==3.1.7
+          version: '6.9.3'
+          aqtversion: ==3.3.0
 
       - name: Install prerequisites
         run: |
@@ -54,8 +54,8 @@ jobs:
       - name: Install Qt
         uses: jurplel/install-qt-action@v4
         with:
-          version: '6.5.3'
-          aqtversion: ==3.1.7
+          version: '6.9.3'
+          aqtversion: ==3.3.0
 
       - name: Install prerequisites
         run: |
@@ -74,4 +74,3 @@ jobs:
           name: libhelloworld_arm64
           path: |
             ./libhelloworld.arm64.dylib
-          
